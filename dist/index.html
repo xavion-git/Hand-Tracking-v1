@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handtrack.js : A library for prototyping realtime handtracking in the browser.</title>
+  <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
+  <script type="module" crossorigin src="/assets/index-BdLF_v2y.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DHbM1K8u.css">
+</head>
+
+<body class="bx--body p20">
+  <div class="p20">
+    Handtrack.js allows you prototype handtracking interactions in the browser in 10 lines of code.
+  </div>
+  <div class="mb10">
+    <button id="trackbutton" class="bx--btn bx--btn--secondary" type="button">
+      Toggle Video
+    </button>
+    <div id="updatenote" class="updatenote mt10"> loading model ..</div>
+  </div>
+  
+  <div style="position: relative; display: inline-block;">
+    <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+    <canvas id="canvas" class="border canvasbox" style="position: absolute; left: 0; top: 0;"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+  <script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.js"></script>
+</body>
+
+</html>
