@@ -1,10 +1,11 @@
 {
-  "name": "Hand-Tracking-v1",
+  "name": "hand-tracking-v1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "vite": "dev"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
